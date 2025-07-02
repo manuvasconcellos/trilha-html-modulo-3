@@ -36,3 +36,66 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+caption {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #333;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.footer a {
+  color: #6a1b9a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.anchors ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.anchors ul li:last-child {
+  border-bottom: none;
+}
+a:focus,
+button:focus {
+  outline: 2px solid #6a1b9a;
+  outline-offset: 2px;
+}
